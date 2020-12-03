@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyterlab = "*"
+pycoingecko = "*"
+numpy = "*"
+pandas = "*"
+pulp = "*"
+pyportfolioopt = "*"
+jupyter-nbextensions-configurator = "*"
+scikit-learn = "*"
+matplotlib = "*"
+yfinance = "*"
+seaborn = "*"
+pysqlite3 = "*"
+pandas-datareader = "*"
+
+[requires]
+python_version = "3.8"
