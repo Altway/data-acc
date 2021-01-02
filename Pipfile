@@ -19,6 +19,9 @@ yfinance = "*"
 seaborn = "*"
 pysqlite3 = "*"
 pandas-datareader = "*"
+html5lib = "*"
+beautifulsoup4 = "*"
+jupyter-dash = "*"
 
 [requires]
 python_version = "3.8"
