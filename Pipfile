@@ -17,8 +17,21 @@ ipython = "*"
 ipykernel = "*"
 chardet = "*"
 cvxpy = "*"
+thetadata = "*"
+riskfolio-lib = "*"
+numecon = "*"
+pyfolio = "*"
+empyrical = "*"
+pyql = "*"
+py-vollib = "*"
+backtrader = "*"
+alpha-vantage = "*"
+ibapi = "*"
+yahooquery = "*"
+ccxt = "*"
 
 [dev-packages]
+jupyterlab = "*"
 
 [requires]
 python_version = "3.11"
