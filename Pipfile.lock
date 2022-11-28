@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ca65032a014b619b2087fe479a0aa23d9d144802ff8f81fe18fc40043be0e09d"
+            "sha256": "d5f52362a5850c3938e89476ee660f40fdf3780588cbaeed91eaf7ce0627e40b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -351,6 +351,13 @@
             ],
             "markers": "python_full_version >= '3.6.0'",
             "version": "==2.1.1"
+        },
+        "click": {
+            "hashes": [
+                "sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e",
+                "sha256:bb4d8133cb15a609f44e8213d9b391b0809795062913b383c62be0ee95b1db48"
+            ],
+            "version": "==8.1.3"
         },
         "contourpy": {
             "hashes": [
@@ -1479,6 +1486,17 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
+        },
+        "python-dotenv": {
+            "extras": [
+                "cli"
+            ],
+            "hashes": [
+                "sha256:1684eb44636dd462b66c3ee016599815514527ad99965de77f43e0944634a7e5",
+                "sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045"
+            ],
+            "index": "pypi",
+            "version": "==0.21.0"
         },
         "pytz": {
             "hashes": [

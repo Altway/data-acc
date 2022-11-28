@@ -29,6 +29,7 @@ alpha-vantage = "*"
 ibapi = "*"
 yahooquery = "*"
 ccxt = "*"
+python-dotenv = {extras = ["cli"], version = "*"}
 
 [dev-packages]
 jupyterlab = "*"
