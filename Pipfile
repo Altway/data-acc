@@ -30,6 +30,10 @@ ibapi = "*"
 yahooquery = "*"
 ccxt = "*"
 python-dotenv = {extras = ["cli"], version = "*"}
+cython = "*"
+statsmodels = "*"
+sympy = "*"
+arch = "*"
 
 [dev-packages]
 jupyterlab = "*"
