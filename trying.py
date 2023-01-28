@@ -1,5 +1,7 @@
 import math
+import latexify
 
+@latexify.function
 def expected_value(k):
     return 2**k*(1-(k/11)) + 1/2*(k/11)
 
@@ -14,3 +16,5 @@ def riskiness(start, k, expected_take_home):
 
 for i in range(11):
     print(f"{riskiness(1, i, 1):.2f}")
+
+expected_value
