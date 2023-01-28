@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+openbb = {extras = ["all"], version = "*"}
 numpy = "*"
 pandas = "*"
 yfinance = "*"
@@ -18,27 +19,25 @@ ipykernel = "*"
 chardet = "*"
 cvxpy = "*"
 thetadata = "*"
-riskfolio-lib = "*"
 numecon = "*"
 pyfolio = "*"
 empyrical = "*"
 pyql = "*"
 py-vollib = "*"
 backtrader = "*"
-alpha-vantage = "*"
 ibapi = "*"
-yahooquery = "*"
+alpha-vantage = "*"
 ccxt = "*"
 python-dotenv = {extras = ["cli"], version = "*"}
-cython = "*"
 statsmodels = "*"
 sympy = "*"
 arch = "*"
 openai = "*"
+pykalman = "*"
+latexify-py = "*"
 
 [dev-packages]
 jupyterlab = "*"
 
 [requires]
-python_version = "3.11"
-python_full_version = "3.11.0"
+python_version = "3.10"
