@@ -439,11 +439,11 @@
         },
         "ccxt": {
             "hashes": [
-                "sha256:40405f7cf650151f48f19ec7763be397a07f9795b57fa3abc14f7778aea9562e",
-                "sha256:8fc0639d72e5042f8d3f51508d09da5ff69129cc4daa79831c25206ec2612f0f"
+                "sha256:4a8d3007c668aedb934f660fc17100041e091662c5749a2d762a20e68a46bf1b",
+                "sha256:84098c8a2e67ae883c5e002166c01e51e3a05ab2edf2dfebe46f2db677bcedb4"
             ],
             "index": "pypi",
-            "version": "==2.7.7"
+            "version": "==2.7.8"
         },
         "certifi": {
             "hashes": [
