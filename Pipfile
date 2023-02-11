@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-openbb = {extras = ["all"], version = "*"}
 numpy = "*"
 pandas = "*"
 yfinance = "*"
@@ -35,6 +34,7 @@ arch = "*"
 openai = "*"
 pykalman = "*"
 latexify-py = "*"
+openbb = {path = "./../OpenBBTerminal/dist/openbb-2.3.1-py3-none-any.whl"}
 
 [dev-packages]
 jupyterlab = "*"
