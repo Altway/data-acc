@@ -4,40 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+ccxt = "*"
+python-dotenv = "*"
 numpy = "*"
 pandas = "*"
-yfinance = "*"
+scipy = "*"
 matplotlib = "*"
-seaborn = "*"
-pysqlite3 = "*"
-pycoingecko = "*"
-pyportfolioopt = "*"
-scikit-learn = "*"
-ipython = "*"
-ipykernel = "*"
-chardet = "*"
-cvxpy = "*"
-thetadata = "*"
-numecon = "*"
-pyfolio = "*"
-empyrical = "*"
-pyql = "*"
-py-vollib = "*"
-backtrader = "*"
-ibapi = "*"
-alpha-vantage = "*"
-ccxt = "*"
-python-dotenv = {extras = ["cli"], version = "*"}
-statsmodels = "*"
-sympy = "*"
 arch = "*"
-openai = "*"
-pykalman = "*"
-latexify-py = "*"
-openbb = {path = "./../OpenBBTerminal/dist/openbb-2.3.1-py3-none-any.whl"}
+scikit-learn = "*"
 
 [dev-packages]
-jupyterlab = "*"
+ipykernel = "*"
+cython = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.12"
